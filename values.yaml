@@ -1,0 +1,4 @@
+kibana:
+  image: "docker.elastic.co/kibana/kibana-oss"
+  imageTag: "7.10.2"
+  elasticsearchHosts: "http://elasticsearch-oss-client:9200"
