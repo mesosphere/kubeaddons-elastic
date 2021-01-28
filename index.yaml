@@ -3,7 +3,7 @@ entries:
   kubeaddons-elasticsearch:
   - apiVersion: v2
     appVersion: 7.10.0
-    created: "2021-01-27T20:48:04.766414972-08:00"
+    created: "2021-01-27T21:19:29.077483578-08:00"
     dependencies:
     - alias: elasticsearch-client
       name: elasticsearch
@@ -34,4 +34,26 @@ entries:
     urls:
     - https://mesosphere.github.io/kubeaddons-elastic/kubeaddons-elasticsearch-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-27T20:48:04.762356538-08:00"
+  kubeaddons-kibana:
+  - apiVersion: v2
+    appVersion: 7.10.0
+    created: "2021-01-27T21:19:29.079125264-08:00"
+    dependencies:
+    - alias: kibana
+      name: kibana
+      repository: https://helm.elastic.co
+      version: 7.10.0
+    description: A Helm chart for D2iQ Kommander that installs Kibana OSS
+    digest: f9ce2a4eecc14c6c1bdd5ad618762edb9b863a0bd03580cf510f30bf97cac898
+    icon: https://helm.elastic.co/icons/kibana.png
+    maintainers:
+    - email: support@d2iq.com
+      name: Kubeaddons Kibana OSS
+    name: kubeaddons-kibana
+    sources:
+    - https://github.com/elastic/kibana
+    type: application
+    urls:
+    - https://mesosphere.github.io/kubeaddons-elastic/kubeaddons-kibana-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-01-27T21:19:29.073236693-08:00"
