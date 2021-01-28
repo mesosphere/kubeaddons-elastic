@@ -8,9 +8,8 @@ This chart directly uses the upstream community [Kibana](https://github.com/elas
 ## Add repository to Helm
 
 ```
-helm repo add kommander-elasticsearch https://kaiwalyajoshi.github.io/kommander-elasticsearch/
+helm repo add kubeaddons-elastic https://mesosphere.github.io/kubeaddons-elastic/
 ```
-
 
 ## Install Helm Chart
 ```
