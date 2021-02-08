@@ -6,6 +6,8 @@ This repository directly uses the upstream community Elasticsearch chart without
 
 This repository uses Github Pages with the `artifacts` branch to serve assets.
 
+**NOTE**: This repository has been intentionally seperated from [mesosphere/charts](https://github.com/mesosphere/charts/) due to the different licensing requirements from Elastic.
+
 ### Repository Layout
 
 | Product | Version | Branch |
